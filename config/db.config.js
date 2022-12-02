@@ -8,6 +8,6 @@ export default async function connect() {
       `Connected to the database. DB_NAME: ${dbConnection.connection.name}`
     );
   } catch (error) {
-    console.log(error);
+    console.log(error); 
   }
 }
